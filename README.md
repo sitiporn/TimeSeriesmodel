@@ -1,4 +1,4 @@
-## LSTM from Scartch
+## LSTM from Scratch
 
 ### Todo 
 
