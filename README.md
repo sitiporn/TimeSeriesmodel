@@ -22,14 +22,14 @@ Activation function
 * * elementvise dot product 
 
 
-f_t = sigg(W_{f} @ x_{t} + Uf @ h_{t-1} + bf)
-i_t = sigg(W_{i} @ x_{t} + Ui @ h_{t-1} + bi)
-o_t = sigg(W_{o} @ x_{t} + Uo @ h_{t-1}+ bo)
+* f_t = sigg(W_{f} @ x_{t} + Uf @ h_{t-1} + bf)
+* i_t = sigg(W_{i} @ x_{t} + Ui @ h_{t-1} + bi)
+* o_t = sigg(W_{o} @ x_{t} + Uo @ h_{t-1}+ bo)
 
-c_til_{t} = singc(W_{o} @ x_{t} + Uc @ h_{t-1} + bc)
+* c_til_{t} = singc(W_{o} @ x_{t} + Uc @ h_{t-1} + bc)
 
-ct = f_t * c_{t-1} + i_t * c_til_{t}
-ht = o_t * sigh(ct)  
+* ct = f_t * c_{t-1} + i_t * c_til_{t}
+* ht = o_t * sigh(ct)  
 
 
 ### The idea  when information flow to the cell
