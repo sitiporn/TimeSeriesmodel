@@ -1,28 +1,25 @@
 ## LSTM from Scratch
 
 ### LSTM mechanism
+* x_t : input vector shape 
+* f_t : forget gate's activation vector value between 0 and 1
+* i_t : input/update gate's activation  vector value between 0 and 1
+* o_t : output gate's activation vectors vector value between 0 and 1
 
+* h_t : hiddent state vectors known as output vector of LSTM the value of vectors between -1 and +1 
 
-x_t ~ input vector shape: (D) 
-f_t ~ forget gate's activation vector value between 0 and 1
-i_t ~ input/update gate's activation  vector value between 0 and 1
-o_t ~ output gate's activation vectors vector value between 0 and 1
-
-h_t ~ hiddent state vectors known as output vector of LSTM the value of vectors between -1 and +1 
-
-c_prime_t ~ cell input activation vector 
-c_t ~ cell activator
+* c_prime_t : cell input activation vector 
+* c_t ~ cell activator
 
 
 Activation function 
 
+* sigg: sigmoid function
+* sigc: hyperbolic tagent function
+* sigh: hyperbolic tagent or, as peephole LSTM 
 
-sigg: sigmoid function
-sigc: hyperbolic tagent function
-sigh: hyperbolic tagent or, as peephole LSTM 
-
-@  ~ dot product
-* ~ elementvise dot product 
+* @  ~ dot product
+* * elementvise dot product 
 
 
 f_t = sigg(W_{f} @ x_{t} + Uf @ h_{t-1} + bf)
