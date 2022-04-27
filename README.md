@@ -1,7 +1,7 @@
 ## LSTM from Scratch
 
 ### LSTM mechanism
-* x_t : input vector shape 
+* x_t : input vector  
 * f_t : forget gate's activation vector value between 0 and 1
 * i_t : input/update gate's activation  vector value between 0 and 1
 * o_t : output gate's activation vectors vector value between 0 and 1
