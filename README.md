@@ -1,5 +1,12 @@
 ## LSTM from Scratch
 ref: https://en.wikipedia.org/wiki/Long_short-term_memory
+
+### Todo 
+
+   1. test foward one directional
+   2. create bidirectional LSTM
+
+
 ### LSTM mechanism
 * x_t : input vector  
 * f_t : forget gate's activation vector value between 0 and 1
@@ -47,7 +54,4 @@ Activation function
 
 
 
-### Todo 
 
-   1. test foward one directional
-   2. create bidirectional LSTM
